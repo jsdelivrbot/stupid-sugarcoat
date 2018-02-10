@@ -1,0 +1,8 @@
+body {
+    background:#ffaef9!important;
+    cursor:url(icon.png), auto;
+}
+
+.alert {
+    display:none;
+}
