@@ -1,8 +1,17 @@
 body {
     background:#ffaef9!important;
-    cursor:url(https://rawgit.com/jonasjohansson/sugarcoat/master/cursor.png), auto;
+}
+
+* {
+	cursor:url(https://rawgit.com/jonasjohansson/sugarcoat/master/cursor.png) 64 64, auto;
 }
 
 .alert {
     display:none;
+}
+
+.sparkle {
+	position:absolute;
+	top:0;
+	left:0;
 }
