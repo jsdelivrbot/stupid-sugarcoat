@@ -13,7 +13,7 @@ function addAudio(){
 	let audio = document.createElement("audio");
 	let source = document.createElement("source");
 	audio.autoplay = true;
-	source.src = "https://rawgit.com/jonasjohansson/sugarcoat/master/honey.mp3";
+	source.src = "https://cdn.jsdelivr.net/gh/jonasjohansson/sugarcoat/honey.mp3";
 	source.type = "audio/mp3";
 	audio.appendChild(source);
 	document.body.appendChild(audio);
@@ -25,7 +25,7 @@ function addCursor(){
 	cursor.style.position = "absolute";
 	cursor.style.width = "128px";
 	cursor.style.height = "128px";
-	cursor.style.backgroundImage = "https://rawgit.com/jonasjohansson/sugarcoat/master/cursor.png";
+	cursor.style.backgroundImage = "https://cdn.jsdelivr.net/gh/jonasjohansson/sugarcoat/cursor.png";
 	document.body.appendChild(cursor);
 	document.addEventListener("mousemove", (e) => {
 		let posX = e.pageX - (cursor.offsetWidth * 0.5) + 'px';
